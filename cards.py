@@ -16,6 +16,7 @@ while inp != "q":
   randomCard = random.choice(cards)
   index = cards.index(randomCard)
   backCArd = cardBack [index]
+  randomCard = randomCard.rstrip("\n")
   print("")
   print(randomCard)
   inp = str(input())
