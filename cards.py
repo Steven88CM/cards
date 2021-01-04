@@ -11,7 +11,7 @@ cardBack = antwFile.readlines()
 print (cards)
 print (cardBack)
 
-inp = "yess"
+inp = "R"
 while inp != "q":
   randomCard = random.choice(cards)
   index = cards.index(randomCard)
@@ -19,7 +19,6 @@ while inp != "q":
   print("")
   print(randomCard)
   inp = str(input())
-  print("")
   print(backCArd)
 
 sys.exit()
